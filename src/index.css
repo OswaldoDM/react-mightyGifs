@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PT Mono';
+  src: url('./fonts/PTMono-Regular.ttf');
+
+}
+
+@font-face {
+  font-family: 'Nexa Black';
+  src: url('./fonts/Nexa-Black.ttf');
+
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf');
+
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;  
+  
+}
+
+.btn {
+
+  background: linear-gradient(to right, rgb(97, 87, 255), rgb(0, 230, 204), rgb(97, 87, 255)) 0% 100% / 300%;
+}
+
+
+.btn:hover {
+
+  background: linear-gradient(to right, rgb(97, 87, 255), rgb(0, 230, 204), rgb(97, 87, 255)) 0% 100% / 300%;  
+  animation: gradient 3s normal infinite;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+img {
+  
+  transition: 0.3s;  
+}
+
+img:hover {
+
+  transform: scale(1.05,1.05);
+}
+
+i {
+  transition: 0.5s;
+  
+}
+
+
+
+
+
+
+
+
