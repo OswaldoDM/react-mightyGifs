@@ -5,7 +5,7 @@ function Footer(){
 
     return (
         <>
-    <footer className="px-3 py-8 | md:mt-[200px] | bg-fullBlack | text-gray-500">
+    <footer className="px-3 py-8 | md:mt-[200px] | bg-fullBlack | text-gray-500" id="contact">
 
         <div className="flex flex-col">            
 

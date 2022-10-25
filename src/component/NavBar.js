@@ -26,7 +26,7 @@ function NavBar(){
 
         <div className="hidden | lg:order-3 lg:block | w-full lg:w-2/5 | lg:text-right">
             
-            <a className="mt-4 lg:mt-0 mr-10 | block lg:inline-block | text-whiteText text-lg font-PTMono font-bold" href="#">
+            <a className="mt-4 lg:mt-0 mr-10 | block lg:inline-block | text-whiteText text-lg font-PTMono font-bold" href="#contact">
                 Contact
             </a>
 
