@@ -29,6 +29,10 @@
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
 
   background: linear-gradient(to right, rgb(97, 87, 255), rgb(0, 230, 204), rgb(97, 87, 255)) 0% 100% / 300%;
