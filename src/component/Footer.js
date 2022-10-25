@@ -19,13 +19,21 @@ function Footer(){
                
 
                 <div className="mt-4 md:mt-0 | flex-1 flex items-center justify-center | md:border-r border-gray-600">
-                    <a className = '' href="#">
+                    
 
+                    <a href="https://api.whatsapp.com/send/?phone=4244181500&text&type=phone_number&app_absent=0" target= "_blank">
                         <i className ="fa-brands fa-whatsapp | text-[30px] mr-[5px] text-iGreen hover:text-iGreenL"></i>
-                        <i className ="fa-brands fa-github | text-[30px] mr-[5px] text-iGreen hover:text-iGreenL"></i>
-                        <i className ="fa-brands fa-linkedin | text-[30px] text-iGreen hover:text-iGreenL"></i>
-                        
                     </a>
+
+                    <a href="https://github.com/OswaldoDM" target= "_blank">
+                        <i className ="fa-brands fa-github | text-[30px] mr-[5px] text-iGreen hover:text-iGreenL"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/oswaldo-diaz-milanes-951319146/" target= "_blank">
+                        <i className ="fa-brands fa-linkedin | text-[30px] text-iGreen hover:text-iGreenL"></i>
+                    </a>
+                        
+                    
                     
                 </div>
 
