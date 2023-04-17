@@ -2,36 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Blanka';
+  src: url('assets/Blanka.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
 @font-face {
   font-family: 'PT Mono';
-  src: url('./fonts/PTMono-Regular.ttf');
+  src: url('assets/PTMono-Regular.ttf');
 
 }
 
-@font-face {
-  font-family: 'Nexa Black';
-  src: url('./fonts/Nexa-Black.ttf');
+.font-blanka { font-family: 'Blanka'; }
 
+body{
+
+  font-family: 'Urbanist', sans-serif;  
+  opacity: 0.96;  
 }
 
-@font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/Roboto-Regular.ttf');
-
-}
-
-* {
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #000000;  
+.img-container img {
   
+  transition: 0.3s;  
 }
 
-html {
-  scroll-behavior: smooth;
+.img-container img:hover {
+
+  transform: scale(1.05,1.05);
 }
+
+@media only screen 
+and (min-width: 500px) {
+
+  .img-container img{
+    height: 80px;
+  }
+
+}
+
+@media only screen 
+and (min-width: 1520px) {
+
+  .img-container img{
+    height: 95px;
+  }
+
+}
+ 
 
 .btn {
 
@@ -42,7 +63,7 @@ html {
 .btn:hover {
 
   background: linear-gradient(to right, rgb(97, 87, 255), rgb(0, 230, 204), rgb(97, 87, 255)) 0% 100% / 300%;  
-  animation: gradient 3s normal infinite;
+  animation: gradient 6s normal infinite;
 }
 
 
@@ -58,21 +79,6 @@ html {
 	}
 }
 
-
-img {
-  
-  transition: 0.3s;  
-}
-
-img:hover {
-
-  transform: scale(1.05,1.05);
-}
-
-i {
-  transition: 0.5s;
-  
-}
 
 
 
